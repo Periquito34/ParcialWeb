@@ -1,0 +1,10 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Oculta las barras de desplazamiento */
+  height: 100%; /* Asegura que el cuerpo ocupe toda la ventana */
+}
+
+canvas {
+  display: block; /* Elimina el comportamiento de inline-block que podría generar espacios */
+}
